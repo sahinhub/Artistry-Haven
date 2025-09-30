@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Header></Header>
     <Outlet></Outlet>
     <Footer></Footer>
+    <SpeedInsights/>
    </div>
   )
 }
