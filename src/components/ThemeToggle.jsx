@@ -22,7 +22,7 @@ const ThemeToggle = () => {
 
   return (
     <div>
-      <label className="toggle text-3xl">
+      <label className="toggle">
         <input
           type="checkbox"
           checked={dark}
